@@ -1,0 +1,29 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: black;
+}
+
+.navbar a:hover {
+    /* text-decoration: underline; */
+    background-color: rgb(255, 221, 171);
+}
